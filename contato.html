@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Entre em contato com o Café Aroma Serrano. Estamos prontos para atender você.">
+    <title>Fale Conosco | Café Aroma Serrano</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar container" aria-label="Navegação principal">
+            <a class="brand" href="index.html" aria-label="Café Aroma Serrano - página inicial">
+                <span class="brand-mark">AS</span>
+                <span class="brand-name">Café <strong>Aroma Serrano</strong><small>TORRA ARTESANAL</small></span>
+            </a>
+            <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu-principal">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="menu-principal">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="contato.html" class="nav-cta">Fale Conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-banner page-banner-contact">
+            <div class="container">
+                <span class="eyebrow eyebrow-light">ESTAMOS POR AQUI</span>
+                <h1>Vamos conversar<br><em>sobre café?</em></h1>
+                <p>Dúvidas, pedidos ou sugestões? Será um prazer ouvir você.</p>
+            </div>
+        </section>
+
+        <section class="section container contact-layout">
+            <div class="contact-form-wrap">
+                <span class="eyebrow">MANDE SUA MENSAGEM</span>
+                <h2>Fale com a gente</h2>
+                <p class="form-intro">Preencha os campos abaixo. Responderemos assim que possível.</p>
+
+                <form id="contact-form" novalidate>
+                    <div class="form-field">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" placeholder="Seu nome completo" autocomplete="name" aria-describedby="erro-nome">
+                        <small class="field-error" id="erro-nome"></small>
+                    </div>
+                    <div class="form-field">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="voce@email.com" autocomplete="email" aria-describedby="erro-email">
+                        <small class="field-error" id="erro-email"></small>
+                    </div>
+                    <div class="form-field">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem..." aria-describedby="erro-mensagem"></textarea>
+                        <small class="field-error" id="erro-mensagem"></small>
+                    </div>
+                    <button class="button button-primary" type="submit">Enviar mensagem <span aria-hidden="true">→</span></button>
+                    <p class="form-feedback" id="form-feedback" role="status" aria-live="polite"></p>
+                </form>
+            </div>
+
+            <aside class="contact-details">
+                <span class="eyebrow eyebrow-light">VAMOS MANTER CONTATO</span>
+                <h2>Um bom café<br>aproxima pessoas.</h2>
+                <div class="contact-detail">
+                    <span class="detail-icon">☎</span>
+                    <div><strong>Telefone / WhatsApp</strong><a href="tel:+5521999990000">(21) 99999-0000</a></div>
+                </div>
+                <div class="contact-detail">
+                    <span class="detail-icon">✉</span>
+                    <div><strong>E-mail</strong><a href="mailto:contato@aromaserrano.com.br">contato@aromaserrano.com.br</a></div>
+                </div>
+                <div class="contact-detail">
+                    <span class="detail-icon">⌖</span>
+                    <div><strong>Endereço</strong><span>Região Serrana – Rio de Janeiro, RJ</span></div>
+                </div>
+                <div class="contact-detail">
+                    <span class="detail-icon">◷</span>
+                    <div><strong>Atendimento</strong><span>Segunda a sexta, das 9h às 18h</span></div>
+                </div>
+                <p class="contact-aside-note">Será um prazer fazer parte do seu próximo momento de pausa.</p>
+            </aside>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a class="brand brand-footer" href="index.html">
+                    <span class="brand-mark">AS</span>
+                    <span class="brand-name">Café <strong>Aroma Serrano</strong><small>TORRA ARTESANAL</small></span>
+                </a>
+                <p>O sabor da serra em cada encontro.</p>
+            </div>
+            <div>
+                <h3>Contato</h3>
+                <p><a href="tel:+5521999990000">(21) 99999-0000</a></p>
+                <p><a href="mailto:contato@aromaserrano.com.br">contato@aromaserrano.com.br</a></p>
+            </div>
+            <div>
+                <h3>Redes sociais</h3>
+                <p><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a></p>
+                <p><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a></p>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <span>© <span class="current-year">2026</span> Café Aroma Serrano. Todos os direitos reservados.</span>
+            <span>Feito com cuidado, do grão à xícara.</span>
+        </div>
+    </footer>
+</body>
+</html>

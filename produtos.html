@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conheça os cafés em grãos, moídos e acessórios do Café Aroma Serrano.">
+    <title>Produtos | Café Aroma Serrano</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar container" aria-label="Navegação principal">
+            <a class="brand" href="index.html" aria-label="Café Aroma Serrano - página inicial">
+                <span class="brand-mark">AS</span>
+                <span class="brand-name">Café <strong>Aroma Serrano</strong><small>TORRA ARTESANAL</small></span>
+            </a>
+            <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu-principal">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="menu-principal">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="contato.html" class="nav-cta">Fale Conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-banner page-banner-products">
+            <div class="container">
+                <span class="eyebrow eyebrow-light">NOSSA SELEÇÃO</span>
+                <h1>Um bom café<br><em>muda o momento.</em></h1>
+                <p>Escolha o seu jeito favorito de apreciar a serra.</p>
+            </div>
+        </section>
+
+        <section class="section container">
+            <div class="products-heading">
+                <div>
+                    <span class="eyebrow">FEITOS PARA APRECIAR</span>
+                    <h2>Nossos produtos</h2>
+                </div>
+                <div class="filter-group" aria-label="Filtrar produtos por categoria">
+                    <button class="filter-button active" type="button" data-filter="todos" aria-pressed="true">Todos</button>
+                    <button class="filter-button" type="button" data-filter="graos" aria-pressed="false">Grãos</button>
+                    <button class="filter-button" type="button" data-filter="moidos" aria-pressed="false">Moídos</button>
+                    <button class="filter-button" type="button" data-filter="acessorios" aria-pressed="false">Acessórios</button>
+                </div>
+            </div>
+
+            <div class="product-grid">
+                <article class="product-card" data-category="graos">
+                    <img src="img/produto-graos.svg" alt="Pacote ilustrado de café em grãos">
+                    <div class="product-info"><span class="product-category">GRÃOS</span><h3>Serra Clássico</h3><p>Notas de chocolate e castanhas, corpo equilibrado.</p><strong class="price">R$ 39,90 <small>250 g</small></strong></div>
+                </article>
+                <article class="product-card" data-category="graos">
+                    <img src="img/produto-graos-claro.svg" alt="Pacote ilustrado de café em grãos de torra clara">
+                    <div class="product-info"><span class="product-category">GRÃOS</span><h3>Manhã Dourada</h3><p>Torra clara, notas cítricas e aroma floral delicado.</p><strong class="price">R$ 44,90 <small>250 g</small></strong></div>
+                </article>
+                <article class="product-card" data-category="graos">
+                    <img src="img/produto-graos-intenso.svg" alt="Pacote ilustrado de café em grãos de torra intensa">
+                    <div class="product-info"><span class="product-category">GRÃOS</span><h3>Serra Intenso</h3><p>Torra média-escura, sabor marcante e notas de cacau.</p><strong class="price">R$ 42,90 <small>250 g</small></strong></div>
+                </article>
+                <article class="product-card" data-category="moidos">
+                    <img src="img/produto-moido.svg" alt="Pacote ilustrado de café moído">
+                    <div class="product-info"><span class="product-category">MOÍDOS</span><h3>Coado da Serra</h3><p>Moagem ideal para filtro, com doçura e equilíbrio.</p><strong class="price">R$ 34,90 <small>250 g</small></strong></div>
+                </article>
+                <article class="product-card" data-category="moidos">
+                    <img src="img/produto-moido-espresso.svg" alt="Pacote ilustrado de café moído para espresso">
+                    <div class="product-info"><span class="product-category">MOÍDOS</span><h3>Espresso da Casa</h3><p>Moagem fina, crema consistente e sabor encorpado.</p><strong class="price">R$ 36,90 <small>250 g</small></strong></div>
+                </article>
+                <article class="product-card" data-category="acessorios">
+                    <img src="img/produto-coador.svg" alt="Ilustração de coador de café reutilizável">
+                    <div class="product-info"><span class="product-category">ACESSÓRIOS</span><h3>Coador de Pano</h3><p>Um clássico para preparar café com calma e carinho.</p><strong class="price">R$ 24,90 <small>unidade</small></strong></div>
+                </article>
+            </div>
+            <p class="catalog-note">Os produtos e preços desta página são ilustrativos para apresentação do projeto.</p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a class="brand brand-footer" href="index.html">
+                    <span class="brand-mark">AS</span>
+                    <span class="brand-name">Café <strong>Aroma Serrano</strong><small>TORRA ARTESANAL</small></span>
+                </a>
+                <p>O sabor da serra em cada encontro.</p>
+            </div>
+            <div>
+                <h3>Contato</h3>
+                <p><a href="tel:+5521999990000">(21) 99999-0000</a></p>
+                <p><a href="mailto:contato@aromaserrano.com.br">contato@aromaserrano.com.br</a></p>
+            </div>
+            <div>
+                <h3>Redes sociais</h3>
+                <p><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a></p>
+                <p><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a></p>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <span>© <span class="current-year">2026</span> Café Aroma Serrano. Todos os direitos reservados.</span>
+            <span>Feito com cuidado, do grão à xícara.</span>
+        </div>
+    </footer>
+</body>
+</html>
